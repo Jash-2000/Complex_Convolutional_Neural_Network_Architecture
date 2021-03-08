@@ -2,18 +2,46 @@
 
 This repository conatins my implemetations of some of the famous, complex Convolutional Neural Net Archiectures. The models have been developed from scratch using Tensorflow's 
 Keras functional API, which is a way to create models that are more flexible than the tf.keras.Sequential API. The functional API can handle models with non-linear topology, 
-models with shared layers, and models with multiple inputs or outputs. This architecture makes it possible for the neural network to learn both deep patterns (using the deep path)
-and simple rules (through the short path).
+models with shared layers, and models with multiple inputs or outputs. This architecture makes it possible for the neural network to learn both deep patterns (using the deep path) and simple rules (through the short path).
 
-## List and short description of developed models
+## List of developed models
 
-  * Alexnet - 
-  * Xception - 
-  * GoogleNet - 
-  * Resnet - 
-  * Unet - 
-  * MobilNet - 
- 
+Models starting from branching-dangling models, to depthwise and point-wise convolutions have been experimented. I have also implemented the U-net, which is a unique architecture specifically for biomedical image segmentation. 
+
+  <table>
+  <tr>
+    <td>Alexnet</td>
+    <td>Xception</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110291584-15e49280-8012-11eb-86cc-c1221c39bcb1.png" width = "502" height = "354"></td>
+    <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/Open-circuit-voltage-OCV-state-of-charge-SOC-curve-at-room-temperature.png"</td>
+  </tr>
+ </table>
+ <table>
+  <tr>
+    <td>GoogleNet</td>
+    <td>Resnet</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110290304-a621d800-8010-11eb-9b5f-f52ca1f715b2.png" width = "502" height = "354"></td>
+    <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/Open-circuit-voltage-OCV-state-of-charge-SOC-curve-at-room-temperature.png"</td>
+  </tr>
+ </table>
+  <table>
+  <tr>
+    <td>Unet</td>
+    <td>MobileNet</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/SOC.png" width = "502" height = "354"></td>
+    <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/Open-circuit-voltage-OCV-state-of-charge-SOC-curve-at-room-temperature.png"</td>
+  </tr>
+ </table>
+
+
+## Legend
+
  ![Legend](https://github.com/Jash-2000/Complex_Convolutional_Neural_Network_Architecture/blob/main/Images/download.png)
  
 ## Keras Functions used and their explaination
