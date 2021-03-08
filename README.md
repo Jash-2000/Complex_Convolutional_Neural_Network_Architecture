@@ -39,10 +39,6 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
   </tr>
  </table>
 
-
-## Legend
-
- ![Legend](https://github.com/Jash-2000/Complex_Convolutional_Neural_Network_Architecture/blob/main/Images/download.png)
  
 ## Keras Functions used and their explaination
 
