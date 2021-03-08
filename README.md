@@ -14,7 +14,8 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
 * GoogleNet - It utilises Inception modules, which allow the network to choose between multiple convolutional filter sizes in each block. An Inception network stacks these modules on top of each other, with occasional max-pooling layers with stride 2 to halve the resolution of the grid.
 * Xception - XCeption is an efficient architecture that relies on two main points : Depthwise Separable Convolution. Shortcuts between Convolution blocks as in ResNet.
 * MobileNet - MobileNet is a type of convolutional neural network designed for mobile and embedded vision applications. They are based on a streamlined architecture that uses 2 stage depthwise separable and pointwise convolutions to build lightweight deep neural networks that can have low latency for mobile and embedded devices.
-* Custom model
+
+---
 
   <table>
   <tr>
