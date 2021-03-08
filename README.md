@@ -5,11 +5,15 @@ Keras functional API, which is a way to create models that are more flexible tha
 models with shared layers, and models with multiple inputs or outputs. This architecture makes it possible for the neural network to learn both deep patterns (using the deep path)
 and simple rules (through the short path).
 
-## List and short description of models I have developed
+## List and short description of developed models
 
-  * 
+  * Alexnet - 
+  * Xception - 
+  * GoogleNet - 
+  * Resnet - 
+  * Unet - 
+  * MobilNet - 
  
-
 ## Transfer Learning
 
 Transfer learning (TL) is a research problem in ML that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. For example,
