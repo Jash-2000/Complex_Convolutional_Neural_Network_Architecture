@@ -43,8 +43,8 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
     <td>MobileNet</td>
   </tr>
   <tr>
-    <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/SOC.png" width = "502" height = "354"></td>
-    <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/Open-circuit-voltage-OCV-state-of-charge-SOC-curve-at-room-temperature.png"</td>
+    <td valign="top"><img src="" width = "502" height = "354"></td>
+    <td valign="top"><img src=""</td>
   </tr>
  </table>
 
