@@ -6,7 +6,7 @@ models with shared layers, and models with multiple inputs or outputs. This arch
 
 ## List of developed models
 
-Models starting from branching-dangling models, to depthwise and point-wise convolutions have been experimented. I have also implemented the U-net, which is a unique architecture specifically for biomedical image segmentation. At last, I have made a custom complex model and trained it on [Cifar dataset](https://www.cs.toronto.edu/~kriz/cifar.html). 
+Models starting from branching-dangling models, to depthwise and point-wise convolutions have been experimented. I have also implemented the U-net, which is a unique architecture specifically for biomedical image segmentation. At last, I have made a **custom complex model** where I have mixed all the concepts used in below mentioned archutectures, and trained it on [Cifar dataset](https://www.cs.toronto.edu/~kriz/cifar.html). 
 
 * AlexNet - AlexNet is the name of a convolutional neural network which has had a large impact on the field of machine learning, specifically in the application of deep learning to machine vision. 
 * ResNet - A residual neural network (ResNet) is an artificial neural network (ANN) of a kind that builds on constructs known from pyramidal cells in the cerebral cortex. Residual neural networks do this by utilizing skip connections, or shortcuts to jump over some layers.
