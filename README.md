@@ -6,7 +6,15 @@ models with shared layers, and models with multiple inputs or outputs. This arch
 
 ## List of developed models
 
-Models starting from branching-dangling models, to depthwise and point-wise convolutions have been experimented. I have also implemented the U-net, which is a unique architecture specifically for biomedical image segmentation. 
+Models starting from branching-dangling models, to depthwise and point-wise convolutions have been experimented. I have also implemented the U-net, which is a unique architecture specifically for biomedical image segmentation. At last, I have made a custom complex model and trained it on [Cifar dataset](https://www.cs.toronto.edu/~kriz/cifar.html). 
+
+* AlexNet - AlexNet is the name of a convolutional neural network which has had a large impact on the field of machine learning, specifically in the application of deep learning to machine vision. 
+* ResNet - A residual neural network (ResNet) is an artificial neural network (ANN) of a kind that builds on constructs known from pyramidal cells in the cerebral cortex. Residual neural networks do this by utilizing skip connections, or shortcuts to jump over some layers.
+* UNet - The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization in BioMedical Apllications.
+* GoogleNet - It utilises Inception modules, which allow the network to choose between multiple convolutional filter sizes in each block. An Inception network stacks these modules on top of each other, with occasional max-pooling layers with stride 2 to halve the resolution of the grid.
+* Xception - XCeption is an efficient architecture that relies on two main points : Depthwise Separable Convolution. Shortcuts between Convolution blocks as in ResNet.
+* MobileNet - MobileNet is a type of convolutional neural network designed for mobile and embedded vision applications. They are based on a streamlined architecture that uses 2 stage depthwise separable and pointwise convolutions to build lightweight deep neural networks that can have low latency for mobile and embedded devices.
+* Custom model
 
   <table>
   <tr>
