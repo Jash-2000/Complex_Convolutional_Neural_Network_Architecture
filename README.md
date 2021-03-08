@@ -14,8 +14,8 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
     <td>Xception</td>
   </tr>
   <tr>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110291584-15e49280-8012-11eb-86cc-c1221c39bcb1.png" width = "502" height = "354"></td>
-    <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/Open-circuit-voltage-OCV-state-of-charge-SOC-curve-at-room-temperature.png"</td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110291584-15e49280-8012-11eb-86cc-c1221c39bcb1.png" width = "502"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110291931-81c6fb00-8012-11eb-9961-bab395b45a25.png"</td>
   </tr>
  </table>
  <table>
@@ -24,7 +24,7 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
     <td>Resnet</td>
   </tr>
   <tr>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110290304-a621d800-8010-11eb-9b5f-f52ca1f715b2.png" width = "502" height = "354"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110290304-a621d800-8010-11eb-9b5f-f52ca1f715b2.png" width = "502"></td>
     <td valign="top"><img src="https://github.com/Jash-2000/Simulation_Optimization_of_wireless_charging_station_locations_for_electric_taxis/blob/main/Random/Open-circuit-voltage-OCV-state-of-charge-SOC-curve-at-room-temperature.png"</td>
   </tr>
  </table>
