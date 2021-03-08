@@ -24,7 +24,7 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
   </tr>
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110291584-15e49280-8012-11eb-86cc-c1221c39bcb1.png" width = "502"></td>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110291931-81c6fb00-8012-11eb-9961-bab395b45a25.png"</td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47540320/110310740-e0976f00-8028-11eb-9f3e-393bf3f0f30e.png"</td>
   </tr>
  </table>
  <table>
