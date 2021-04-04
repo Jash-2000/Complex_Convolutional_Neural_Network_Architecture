@@ -4,6 +4,8 @@ This repository conatins my implemetations of some of the famous, complex Convol
 Keras functional API, which is a way to create models that are more flexible than the tf.keras.Sequential API. The functional API can handle models with non-linear topology, 
 models with shared layers, and models with multiple inputs or outputs. This architecture makes it possible for the neural network to learn both deep patterns (using the deep path) and simple rules (through the short path).
 
+**Please feel free to copy the architectures for your projects and do not forget to acknowledge this repository by starring it.**
+
 ## List of developed models
 
 Models starting from branching-dangling models, to depthwise and point-wise convolutions have been experimented. I have also implemented the U-net, which is a unique architecture specifically for biomedical image segmentation. At last, I have made a **[custom complex model](https://github.com/Jash-2000/Complex_Convolutional_Neural_Network_Architecture/blob/main/Images/Custom_Model.png)** where I have mixed all the concepts used in below mentioned archutectures, and trained it on [Cifar dataset](https://www.cs.toronto.edu/~kriz/cifar.html). The multi-class training was done on just 50k images and the classification accuracy was about 72% after training for 100 epochs. 
@@ -15,6 +17,26 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
 * **Xception** - XCeption is an efficient architecture that relies on two main points : Depthwise Separable Convolution. Shortcuts between Convolution blocks as in ResNet.
 * **MobileNet** - MobileNet is a type of convolutional neural network designed for mobile and embedded vision applications. They are based on a streamlined architecture that uses 2 stage depthwise separable and pointwise convolutions to build lightweight deep neural networks that can have low latency for mobile and embedded devices.
 * **Squeeze and Excitation Network (SeNets)** - The SENet can enhance the important features and weaken the unimportant features by controlling the scale. It can make the extracted features more directivity.
+
+## Keras Functions used and their explaination
+
+ * Input() - This is just the defination of an input layer and has nothing to do with the functioning or structure of the model.
+ * Conv2D() - Implements a 2D convolution on the previous layer. It creates <no of filters> numer of outputs and then concatenates them into 1 layer i.e.along the z-axis.
+ * MaxPool2D() - Implements pooling of the previous layer by transmitting only the largest neuron from a pool of neurons.
+ * AvgPool2D() - Implements pooling of the previous layer by transmitting the average value of all the neuron from a defined pool.
+ * BatchNormalization() - Normalizes the neurons by shrinking down the values in the range of 0 to 1.
+ * Flatten() - Flattens a layer i.e makes in 1D
+ * Dense() - A fully connected dense multi-layer perceptron.
+ * Dropout() - The Dropout layer randomly sets input units to 0 with a frequency of rate at each step during training time, which helps prevent overfitting.
+ * Model() - Defines a keras model.
+ * plot_model() - Plots the structure of the model
+ * Concatenate()
+ 
+## Transfer Learning
+
+Transfer learning (TL) is a research problem in ML that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. For example,
+knowledge gained while learning to recognize Cats could apply when trying to recognize Tigers. In this repo, I have also trained the developed models on various objects and have 
+saved the weights as tensorflow weights. Feel free to download thoses weights, add your own layers and implement Transfer Learning for your project. 
 
 ---
 
@@ -48,24 +70,3 @@ Models starting from branching-dangling models, to depthwise and point-wise conv
     <td valign="top"><img src=""</td>
   </tr>
  </table>
-
- 
-## Keras Functions used and their explaination
-
- * Input() - This is just the defination of an input layer and has nothing to do with the functioning or structure of the model.
- * Conv2D() - Implements a 2D convolution on the previous layer. It creates <no of filters> numer of outputs and then concatenates them into 1 layer i.e.along the z-axis.
- * MaxPool2D() - Implements pooling of the previous layer by transmitting only the largest neuron from a pool of neurons.
- * AvgPool2D() - Implements pooling of the previous layer by transmitting the average value of all the neuron from a defined pool.
- * BatchNormalization() - Normalizes the neurons by shrinking down the values in the range of 0 to 1.
- * Flatten() - Flattens a layer i.e makes in 1D
- * Dense() - A fully connected dense multi-layer perceptron.
- * Dropout() - The Dropout layer randomly sets input units to 0 with a frequency of rate at each step during training time, which helps prevent overfitting.
- * Model() - Defines a keras model.
- * plot_model() - Plots the structure of the model
- * Concatenate()
- 
-## Transfer Learning
-
-Transfer learning (TL) is a research problem in ML that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. For example,
-knowledge gained while learning to recognize Cats could apply when trying to recognize Tigers. In this repo, I have also trained the developed models on various objects and have 
-saved the weights as tensorflow weights. Feel free to download thoses weights, add your own layers and implement Transfer Learning for your project. 
